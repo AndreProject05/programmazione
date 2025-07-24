@@ -29,4 +29,5 @@ int main(){
     printf("\nsconto applicato: %d ", sconto);
     double prezzo_finale = calcolo_cartellino(numero, sconto);
     printf("\nil prezzo finale del cartellino e di %lf", prezzo_finale);
+    
 }

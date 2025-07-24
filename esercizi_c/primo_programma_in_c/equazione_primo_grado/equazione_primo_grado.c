@@ -6,7 +6,6 @@ void inserisci_a_b(double* a, double* b){
         printf("\nInserisci a: ");
         if (scanf("%lf", a) != 1) {
             printf("Input non valido per 'a'. Caratteri nel buffer: ");
-
             int c;
     
             while ((c = getchar()) != '\n') {
